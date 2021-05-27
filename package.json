@@ -1,0 +1,22 @@
+{
+  "name": "es2016",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/folkengine/ES2016.git"
+  },
+  "keywords": [
+    "ES2016"
+  ],
+  "author": "Christoph Baker <christoph@controllability.dev> (https://www.npmjs.com//~controllability)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/folkengine/ES2016/issues"
+  },
+  "homepage": "https://github.com/folkengine/ES2016#readme"
+}
