@@ -2,9 +2,11 @@
   "name": "es2016",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .; exit 0",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/folkengine/ES2016/issues"
   },
-  "homepage": "https://github.com/folkengine/ES2016#readme"
+  "homepage": "https://github.com/folkengine/ES2016#readme",
+  "devDependencies": {
+    "chai": "4.3.4",
+    "eslint": "7.27.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-compat": "3.9.0",
+    "eslint-plugin-mocha": "9.0.0",
+    "mocha": "8.4.0"
+  }
 }
