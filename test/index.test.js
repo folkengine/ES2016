@@ -1,9 +1,15 @@
 import { expect } from 'chai';
 
-describe('Array', function() {
-  describe('#indexOf()', function() {
-    it('should return -1 when the value is not present', function() {
-      expect([1, 2, 3].indexOf(4)).to.equal(-1);
+import { hello } from '../src/index.js';
+
+describe('main', function () {
+  describe('#hello()', function () {
+    it('should return default name if no value passed', function () {
+      expect(hello()).to.equal('Hello, World!');
+    });
+
+    it('should return greeting with name when value passed in', function () {
+      expect(hello('Joe')).to.equal('Hello, Joe!');
     });
   });
 });

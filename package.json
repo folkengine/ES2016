@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "index.js",
+  "main": "src/index.js",
+  "bin": {
+    "es2016": "bin/main.js"
+  },
   "scripts": {
     "lint": "eslint .; exit 0",
     "test": "mocha"
@@ -27,6 +30,11 @@
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-plugin-compat": "3.9.0",
     "eslint-plugin-mocha": "9.0.0",
+    "karma": "6.3.2",
+    "karma-chai": "0.1.0",
+    "karma-chrome-launcher": "3.1.0",
+    "karma-firefox-launcher": "2.1.0",
+    "karma-mocha": "2.0.1",
     "mocha": "8.4.0"
   }
 }
