@@ -1,6 +1,5 @@
-import { expect } from 'chai';
-
-import { hello } from '../src/index.js';
+const { expect } = require('chai');
+const hello = require('../src/index');
 
 describe('main', function () {
   describe('#hello()', function () {

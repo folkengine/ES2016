@@ -1,7 +1,13 @@
 # ES2016
 
-# Tools
+## Dev Dependencies
 
+* [Mocha](https://mochajs.org/)
+  * [Chai Assertion Library](https://www.chaijs.com/)
+  * [Karma](https://karma-runner.github.io/latest/index.html)
+* [ESLint](https://eslint.org/)
+  * [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat)
+  * [eslint-plugin-mocha](https://github.com/lo1tuma/eslint-plugin-mocha)
 * [microbundle](https://github.com/developit/microbundle)
 
 ## Inspiration
