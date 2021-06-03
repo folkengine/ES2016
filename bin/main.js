@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
+/* eslint no-console: "off" */
+
 const hello = require('../src/index');
 
-let name = 'Finn'
-
+const name = 'Finn';
 console.log(hello(name));

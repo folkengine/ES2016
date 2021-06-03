@@ -10,7 +10,8 @@
   "scripts": {
     "lint": "./node_modules/.bin/eslint .",
     "karma": "karma start karma.conf.cjs",
-    "test": "mocha"
+    "test": "mocha",
+    "test:all": "npm run lint & npm run test"
   },
   "repository": {
     "type": "git",
