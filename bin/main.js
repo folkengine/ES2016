@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { hello } from '../src/index.js';
+const hello = require('../src/index');
 
 let name = 'Finn'
 
