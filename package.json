@@ -8,7 +8,7 @@
     "es2016": "bin/main.js"
   },
   "scripts": {
-    "lint": "./node_modules/.bin/eslint .; exit 0",
+    "lint": "./node_modules/.bin/eslint .",
     "karma": "karma start karma.conf.cjs",
     "test": "mocha"
   },
